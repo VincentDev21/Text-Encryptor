@@ -10,6 +10,7 @@ def initialize_bin(filename):
     return f'{os.getcwd()}\\encrypted.bin'
 def deleteFile():
     os.remove("encrypted.bin")
+    os.remove("filekey.key")
 
 def encrypt():
     file=open("encrypted.bin","rb")
