@@ -2,7 +2,7 @@
 
 ## Overview
 
-This software is designed to revolutionize the way handwritten notes, prescriptions, or important documents are handled. It converts handwritten notes, company logos, and electronic prescriptions into encrypted QR codes. Not only does it provide a secure means of storing and sharing sensitive information, but it also ensures the validity and verification of key data such as the date of issue, patient details, clinician information, drug information, and more.
+This program will encrypt a .txt or .bin file with an AES encryption mode called EAX (Authenticated Encryption with Associated Data). This program will have a user-friendly UI that will allow users to select certain files, encrypt the file, store it in a .bin file, and output a .key file to later decrypt the file.
 
 
 # Instructions
